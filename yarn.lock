@@ -957,12 +957,19 @@
 "@modules/app-menu@file:./modules/app-menu":
   version "1.0.0"
 
-"@modules/chat@file:./modules/chat/":
+"@modules/chat@file:./modules/chat":
   version "1.0.0"
   dependencies:
     pubnub "^4.29.11"
     pubnub-react "^2.1.0"
     react-native-emoji-selector "^0.2.0"
+    react-native-keyboard-aware-scroll-view "^0.9.3"
+
+"@modules/login@file:./modules/login/":
+  version "1.0.0"
+  dependencies:
+    "@react-navigation/native" "^5.9.2"
+    "@react-navigation/stack" "^5.14.2"
     react-native-keyboard-aware-scroll-view "^0.9.3"
 
 "@modules/terms-and-conditions@file:./modules/terms-and-conditions":
@@ -1171,7 +1178,7 @@
   dependencies:
     nanoid "^3.1.15"
 
-"@react-navigation/stack@^5.14.3":
+"@react-navigation/stack@^5.14.2", "@react-navigation/stack@^5.14.3":
   version "5.14.9"
   resolved "https://registry.yarnpkg.com/@react-navigation/stack/-/stack-5.14.9.tgz#49c7b9316e6fb456e9766c901e0d607862f0ea7d"
   integrity sha512-DuvrT9P+Tz8ezZLQYxORZqOGqO+vEufaxlW1hSLw1knLD4jNxkz8TJDXtfKwaz//9gb43UhTNccNM02vm7iPqQ==
