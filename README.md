@@ -58,6 +58,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [react-native-app-menu](modules/app-menu)
 - [terms-and-conditions]()
 - [react-native-user-profile](modules/user-profile)
+- [react-native-chat](modules/chat)
 
 # Getting started: Frontend
 
